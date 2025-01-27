@@ -1,0 +1,46 @@
+.movie-details-section {
+  display: flex;
+  gap: 24px;
+  background-color: white;
+  margin: 16px 32px;
+  padding: 16px;
+  border-radius: 12px;
+  color: brown;
+  min-height: 200px;
+  border: 3px solid brown;
+}
+
+.movie-details-img {
+  height: 250px;
+  border-radius: 12px;
+}
+
+movie-details-title {
+  color: brown;
+}
+
+.movie-details-section p {
+  margin-top: 8px;
+}
+
+.side-heading {
+  font-weight: 600;
+}
+
+.genre-list {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 8px;
+}
+
+.genre {
+  background-color: brown;
+  padding: 5px 10px;
+  color: white;
+  font-family: Roboto;
+  font-size: 12px;
+  flex-wrap: wrap;
+  border-radius: 4px;
+}

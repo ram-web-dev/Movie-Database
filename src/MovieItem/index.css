@@ -1,0 +1,29 @@
+.movie-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  background-color: white;
+  padding: 16px 32px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 12px;
+}
+
+.movie-item img {
+  height: 250px;
+}
+
+.movie-item h3 {
+  color: brown;
+  margin: 16px;
+}
+
+.movie-item button {
+  background-color: brown;
+  outline: none;
+  border-width: 0;
+  border-radius: 12px;
+  color: white;
+  font-family: Roboto;
+  padding: 8px 16px;
+}

@@ -1,0 +1,21 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-block: 16px;
+}
+
+.pagination button {
+  background-color: brown;
+  color: white;
+  font-family: Roboto;
+  border-style: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.pagination span {
+  color: brown;
+  font-size: 1.5rem;
+}
